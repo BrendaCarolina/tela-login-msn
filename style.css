@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+span.messenger{
+   font-weight: 500;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 15%;
+    margin: 110px;
+    margin-bottom: 45px;
+}
+
+body{
+    background: linear-gradient(
+        360deg,
+        #fcfcfc 60%, #279eee 100%
+    );
+    background-attachment: fixed;
+    
+}
+.icone{
+    display: flex;  /* o que fez a imagem ficar inteira dentro da borda */ 
+    border-radius: 30%;
+    border: solid rgb(42, 245, 42) 7px;
+    overflow: hidden;
+    height: 10rem;
+    width: 10rem;
+    margin-left: 20%;
+
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 140px;
+    right: 180px;
+    height: 25px;
+    
+    
+}
+.senha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 140px;
+    right: 180px;
+    height: 25px;
+    
+}
+
+.esquecer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 140px;
+    right: 280px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    position: relative;
+    bottom: 140px;
+    right: 260px;
+}
+
+.lembrar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    bottom: 140px;
+    right: 240px;
+}
+
+.auto{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    bottom: 140px;
+    right: 220px;
+
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    bottom: 140px;
+    right: 220px;
+    height: 35px;
+    
+}
+
+.inscreva{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    bottom: 140px;
+    right: 195px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    bottom: 140px;
+    right: 195px;
+}
